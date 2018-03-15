@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4568997408146582}
   m_Layer: 0
-  m_Name: IceBlockStack
+  m_Name: IceStack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
