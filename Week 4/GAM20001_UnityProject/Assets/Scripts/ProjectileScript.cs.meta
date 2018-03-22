@@ -5,7 +5,10 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - collisionSound: {fileID: 8300000, guid: 30fbff9b49e5d0b46a24a16c13666b28, type: 3}
+  - collisionParticle: {fileID: 1899703320545138, guid: 952b64efc610f234eb22c678344ef0da,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
