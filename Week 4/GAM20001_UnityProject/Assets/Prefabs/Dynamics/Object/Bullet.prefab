@@ -111,9 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4986a300e4e5c034db44c3e973eda809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionSound: {fileID: 0}
-  collisionParticle: {fileID: 0}
-  tagName: 
+  collisionSound: {fileID: 8300000, guid: 30fbff9b49e5d0b46a24a16c13666b28, type: 3}
+  collisionParticle: {fileID: 1899703320545138, guid: 952b64efc610f234eb22c678344ef0da,
+    type: 2}
+  tagName: Destructable
 --- !u!135 &135001894640386132
 SphereCollider:
   m_ObjectHideFlags: 1
