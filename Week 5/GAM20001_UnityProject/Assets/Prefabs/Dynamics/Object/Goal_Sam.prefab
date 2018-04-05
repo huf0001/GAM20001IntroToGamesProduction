@@ -108,5 +108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
-  scoreSound: {fileID: 0}
-  scoreParticle: {fileID: 0}
+  scoreSound: {fileID: 8300000, guid: b5295e3a292b2ca48bceae7a0c506829, type: 3}
+  scoreParticle: {fileID: 1516451851250940, guid: ea03c77e10b77eb4b996d5c4468c4226,
+    type: 2}
