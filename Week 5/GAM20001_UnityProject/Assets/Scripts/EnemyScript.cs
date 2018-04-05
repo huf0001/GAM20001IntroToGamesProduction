@@ -7,7 +7,10 @@ public class EnemyScript: MonoBehaviour
 	public bool randomForce = true;
 	public float velocity = 10f;
 
-	public GameObject controller;
+    public GameObject collideParticle;
+    private GameObject tempParticles;
+
+    public GameObject controller;
 	private GameplayController gameController;
 	// Use this for initialization
 	void Awake () 
@@ -20,13 +23,18 @@ public class EnemyScript: MonoBehaviour
 
 	void OnCollisionEnter(Collision col)
 	{
-		if(col.gameObject.tag == "Player")
-			gameController.RespawnPlayer();
-		Vector3 reflection = body.velocity.normalized + ( 2 * (Vector3.Dot(body.velocity.normalized, col.contacts[0].normal)) * col.contacts[0].normal);
-		body.velocity = reflection * velocity;
+        if (col.gameObject.tag == "Player")
+        {
+            gameController.RespawnPlayer();
+            Vector3 reflection = body.velocity.normalized + (2 * (Vector3.Dot(body.velocity.normalized, col.contacts[0].normal)) * col.contacts[0].normal);
+            body.velocity = reflection * velocity;
+        }
 
-
-
-	}
+        else if ((col.gameObject.tag != "Shield") && (collideParticle != null))
+        {
+            tempParticles = (GameObject)Instantiate(collideParticle, transform.position, Quaternion.identity);
+            tempParticles.GetComponent<ParticleSystem>().Play();
+        }
+    }
 
 }
