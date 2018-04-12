@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-  - enabled: 1
-    path: Assets/Scenes/Playground_Week06.unity
+    path: Assets/Scenes/PlaygroundWeek5.unity
+    guid: 67c709574aaf9904981a93a855658fe6
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
+    guid: afc341bce43207547877d05b19951a0f
