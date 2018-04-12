@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 941365238}
   - component: {fileID: 941365237}
   m_Layer: 5
-  m_Name: Game Over Panel
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3267,6 +3267,16 @@ Prefab:
         type: 2}
       propertyPath: ColorModule.enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198033917847363742, guid: f1c03959285bed34ca167ec1f475f2a2,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198033917847363742, guid: f1c03959285bed34ca167ec1f475f2a2,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 198033917847363742, guid: f1c03959285bed34ca167ec1f475f2a2,
         type: 2}
